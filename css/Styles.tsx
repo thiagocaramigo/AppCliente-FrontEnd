@@ -38,8 +38,8 @@ export const styles = StyleSheet.create({
         textTransform: "uppercase"
     },
     btncadastrar:{
-        position: "absolute",
-        bottom: 100,
+        // position: "absolute",
+        // bottom: 100,
         backgroundColor:'#000',
         padding: 20,
         borderRadius: 50,
@@ -49,5 +49,11 @@ export const styles = StyleSheet.create({
         fontWeight: "bold",
         color: "teal",
         textTransform: "uppercase",
+        textAlign:"center",
+    },
+    titulo:{
+        fontSize:30,
+        fontWeight:"bold",
+        textAlign: "center",
     },
 })
