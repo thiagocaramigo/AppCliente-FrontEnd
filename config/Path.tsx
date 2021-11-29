@@ -1,1 +1,1 @@
-export const servidor = "http://10.26.48.58:3000/api/cliente";
+export const servidor = "http://10.26.45.26:3000/api/cliente";
