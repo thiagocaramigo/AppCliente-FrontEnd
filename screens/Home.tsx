@@ -66,7 +66,7 @@ export default function Home({route}){
                             <Text style={styles.email}>E-mail:{item.email}</Text>
                             <Text style={styles.usuario}>Usuário{item.usuario}</Text>
                             <TouchableOpacity onPress={()=>{
-                                navigation.navigate("Atualizar",{cliente:item});
+                                navigation.navigate("Atualizar",{cliente: item,token:rs });
                             }}>
                             <Feather name="edit" size={24} color="black" />
                             </TouchableOpacity>
